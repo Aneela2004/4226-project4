@@ -1,0 +1,53 @@
+<html>
+<head>
+        <title>Registration page</title>
+        <link rel="stylesheet" href="styles.css">
+        <body background="new background.jpg"></body>
+        <body text="beige"></body>
+        <body leftmargin="20"></body>
+        <body aria-setsize="35"></body>
+    </head>
+    <body style="padding-left: 30px;">
+        <nav>
+            <h1 style="font-size: 45px">Welcome to Your Destination Place</h1>
+            <ul>
+                <li><a href="home.html">HOME</a> </li>
+                <li><a href="about.html">ABOUT</a> </li>                
+                <li><a href="contact.html">CONTACT</a> </li>
+                <li><a href="Registration.html">REGISTRATION</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="feedback.html">FEEDBACK FORM</a></li>
+            </ul>
+        </nav>
+        <form action="login.html">
+        <h1>Registration Form</h1>
+        Name:<input type="text" name="fnm" autofocus placeholder="username"><br>
+            <br>
+        E-Mail:<input type="email" name="mail" placeholder="E-Mail"><br>
+        <br>
+        Mobile:<input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="the ten digits number" placeholder="Mobil"><br>
+        <br>
+        Date of Birth:<input type="date" name="dob"><br>
+        <br>
+        gender:<input type="radio" name="ml">male 
+                <input type="radio" name="fml">female<br>
+                <br>
+        Select Places:
+        <select name="my destination">
+            <option value="ooty">Ooty</option>
+            <option value="maldives">Maldives</option>
+            <option value="chennai">Chennai</option>
+            <option value="goa">Goa</option>
+            <option value="kodaikanal">Kodaikanal</option>
+            <option value="banglore">Banglore</option>
+            <option value="araku">Araku</option>
+        </select><br>
+        <br>
+        Boarding point:<input type="text" name="boarding point"><br>
+        <br>
+        Destination:<input type="text" name="destination"><br>
+        <br>
+        <input type="submit">     
+        </form>
+    </body>
+</html>
